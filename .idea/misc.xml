@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable-v24/fab.xml" value="0.1" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable-v24/ic_baseline_map_24.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable-v24/ic_message.xml" value="0.2169230769230769" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable/bg_splash_gradient.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable/fade_blue.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable/ic_date_range_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/drawable/rounded_edge.xml" value="0.2203125" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_add_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_assign_staff.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_book_appointment.xml" value="0.1" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_delete_user.xml" value="0.16530797101449277" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_doctor.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_grant_appoinment.xml" value="0.17527173913043478" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_maps.xml" value="0.19610507246376813" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_payment_gateay.xml" value="0.17527173913043478" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_plot.xml" value="0.19202898550724637" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_remaining_bills.xml" value="0.2" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.17889492753623187" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_staff_assign.xml" value="0.17028985507246377" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_t.xml" value="0.12228260869565218" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_tactivity.xml" value="0.16489361702127658" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_telemeeting.xml" value="0.19610507246376813" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_update.xml" value="0.2" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_update_user_info.xml" value="0.19010416666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/activity_update_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/app_bar_layout.xml" value="0.19610507246376813" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/custom_marker_view.xml" value="0.1743659420289855" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/drawer_header.xml" value="0.19610507246376813" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/grant_appoinment_cv.xml" value="0.25" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/gridview_row.xml" value="0.25" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/item_container_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/items.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/personal_info.xml" value="0.25" />
+        <entry key="..\:/MeetingApp/app/src/main/res/layout/remaing_bills.xml" value="0.17527173913043478" />
+        <entry key="..\:/MeetingApp/app/src/main/res/menu/drawer_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/MeetingApp/app/src/main/res/xml/network_security_config.xml" value="0.1539855072463768" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

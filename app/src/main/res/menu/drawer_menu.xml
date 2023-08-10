@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboard"
+        android:checkable="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Dashboard"
+        />
+    <item
+        android:id="@+id/hospital_lm"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Location"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Log Out"
+        />
+</menu>

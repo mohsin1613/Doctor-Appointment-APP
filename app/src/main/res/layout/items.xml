@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.DoctorListActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#a3c2c2">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="190dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/img_one" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/image"
+                    android:layout_toRightOf="@id/image"
+                    android:background="#a3c2c2"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="0dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/name"
+                        android:fontFamily="sans-serif-black"
+                        android:layout_alignParentRight="true"
+                        android:text="Dr.Rofiqul Islam"
+                        android:textColor="#0d0d0d"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/subtitle"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="MBBS,FCPS,MD(Neurology)"
+                        android:textColor="#595959"
+                        android:textSize="10sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/wplace"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="sans-serif-dark"
+                        android:text="Dhaka Medical and hospital"
+                        android:textColor="#404040"
+                        android:textSize="10sp"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/specialization"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Specialization: Cardiology"
+                        android:textColor="#595959"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/day1"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Day-:Fri,Sat,Sun"
+                        android:textColor="#595959"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/time"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Time-: 9:00am-3:00pm"
+                        android:textColor="#595959"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/visit"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Visit Fee-:1000 Taka"
+                        android:textColor="#595959"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:id="@+id/rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:max="5"
+                        android:rating="4.5" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="110dp"
+                        android:layout_height="34dp"
+                        android:id="@+id/btn"
+                        android:layout_marginTop="6dp"
+                        android:background="#ff0000"
+                        android:backgroundTint="#b30000"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Appointment Now"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
